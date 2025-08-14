@@ -15,7 +15,7 @@
 
     <div class="row">
       <input type="button" class="clear" value="AC" onclick="calc.input.value=''">
-      <input type="button" class="clear" value="+/-" onclick="calc.input.value+='-'">
+      <input type="button" class="clear" value="DEL" onclick="calc.input.value=calc.input.value.slice(0, -1)">
       <input type="button" class="clear" value="%" onclick="calc.input.value+='%'">
       <input type="button" class="operator" value="/" onclick="calc.input.value+='/'">
     </div>

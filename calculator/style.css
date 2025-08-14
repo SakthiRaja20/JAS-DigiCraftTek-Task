@@ -44,7 +44,9 @@ input[type="button"] {
   cursor: pointer;
   transition: 0.2s;
 }
-
+input[type="button"]:active {
+  transform: scale(0.95);
+}
 .num {
   background-color: #444;
   color: #fff;
