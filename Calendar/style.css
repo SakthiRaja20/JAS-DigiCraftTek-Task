@@ -26,7 +26,6 @@ body {
 table {
   width: 400px;
   border-collapse:collapse;
-  letter-spacing: 5px;
   height: 400px;
 }
 thead {
@@ -34,7 +33,6 @@ thead {
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 1.2em;
   padding: 10px;
 }
 tbody {
