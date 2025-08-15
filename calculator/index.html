@@ -11,40 +11,31 @@
     <div class="screen">
       <input type="text" name="input" id="answer" readonly>
     </div>
-
-    <div class="row">
       <input type="button" class="clear" value="AC" onclick="calc.input.value=''">
       <input type="button" class="clear" value="DEL" onclick="calc.input.value=calc.input.value.slice(0, -1)">
       <input type="button" class="clear" value="%" onclick="calc.input.value+='%'">
       <input type="button" class="operator" value="/" onclick="calc.input.value+='/'">
-    </div>
 
-    <div class="row">
+    
       <input type="button" class="num" value="7" onclick="calc.input.value+='7'">
       <input type="button" class="num" value="8" onclick="calc.input.value+='8'">
       <input type="button" class="num" value="9" onclick="calc.input.value+='9'">
       <input type="button" class="operator" value="x" onclick="calc.input.value+='*'">
-    </div>
-
-    <div class="row">
+    
       <input type="button" class="num" value="4" onclick="calc.input.value+='4'">
       <input type="button" class="num" value="5" onclick="calc.input.value+='5'">
       <input type="button" class="num" value="6" onclick="calc.input.value+='6'">
       <input type="button" class="operator" value="-" onclick="calc.input.value+='-'">
-    </div>
-
-    <div class="row">
+    
       <input type="button" class="num" value="1" onclick="calc.input.value+='1'">
       <input type="button" class="num" value="2" onclick="calc.input.value+='2'">
       <input type="button" class="num" value="3" onclick="calc.input.value+='3'">
       <input type="button" class="operator" value="+" onclick="calc.input.value+='+'">
-    </div>
-
-    <div class="row">
+   
       <input type="button" class="num zero" value="0" onclick="calc.input.value+='0'" style="width: 118px;">
       <input type="button" class="num" value="." onclick="calc.input.value+='.'">
       <input type="button" class="operator" value="=" onclick="calc.input.value = eval(calc.input.value)">
-    </div>
+    
   </form>
 
 </body>
